@@ -11,7 +11,7 @@ switch (date('H')) {
         $hallo = 'Goede middag!';
         break;
     case (date('H') >= 18):
-        $bg = 'bevening';
+        $bg = 'evening';
         $hallo = 'Goede avond!';
         break;
     default:
