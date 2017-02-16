@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  background-size: cover;
+  color: white;
+}
+
+div.klok{
+  height: 122px;
+  top:calc(50% - 61px);
+  left:calc(50% - 260px);
+  text-align: center;
+  padding:15px;
+  width: 520px;
+  position:absolute;
+  font-size: 40px;
+  letter-spacing: 2px;
+} 
+
+.morning{
+  background-image: url("backgrounds/morning.png");
+}
+
+.evening{
+  background-image: url("backgrounds/evening.png");
+}
+
+.afternoon{
+ background-image: url("backgrounds/afternoon.png");
+}
+
+.night{
+ background-image: url("backgrounds/night.png");
+}
